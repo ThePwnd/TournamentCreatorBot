@@ -39,9 +39,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 	'Valid categories include:\n' +
                     			'!tc configure\n' +
                     			'!tc create\n' +
+                    			'!tc display' +
                     			'!tc edit\n' +
-                    			'!tc register\n' +
-                    			'!tc display'
+                    			'!tc register\n'
                 });
             break;
             // Just add any case commands if you want to..
